@@ -35,7 +35,7 @@ echo "Table MyGuests created successfully";
 else{
     "Error creating table" . mysqli_error($conn);
 }
-
+            
 mysqli_close($conn);
 
 ?>
